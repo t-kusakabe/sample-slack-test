@@ -5,8 +5,9 @@ import (
 	"log"
 
 	slackbot "github.com/lusis/go-slackbot"
-	slacktest "github.com/lusis/slack-test"
+	// slacktest "github.com/lusis/slack-test"
 	slack "github.com/nlopes/slack"
+	slacktest "github.com/t-kusakabe/slacktest"
 )
 
 func globalMessageHandler(ctx context.Context, bot *slackbot.Bot, evt *slack.MessageEvent) {
